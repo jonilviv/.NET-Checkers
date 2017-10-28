@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>NETCore1.0</AssemblyName>
+    <RootNamespace>NETCore1.0</RootNamespace>
+    <PackageId>.NET Core 1.0</PackageId>
+    <Product>.NET Core 1.0</Product>
+    <ApplicationIcon>..\net.ico</ApplicationIcon>
+
+    <Copyright>GNU GPLv3</Copyright>
+    <PackageLicenseUrl>http://www.gnu.org/licenses/gpl.html</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\net.ico" Link="net.ico" />
+  </ItemGroup>
+
+</Project>

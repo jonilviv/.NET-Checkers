@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "NETCore1.0": {
+      "commandName": "Project"
+    }
+  }
+}
