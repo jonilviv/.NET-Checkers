@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.5", "NET4.5\NET4.5.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.5.1", "NET4.5.1\NET4.5.1.csproj", "{CF698BC8-B0C7-40F2-9CF1-3946F807BB4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.5.2", "NET4.5.2\NET4.5.2.csproj", "{118949C6-2373-488F-85A6-1FF41198B240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{CF698BC8-B0C7-40F2-9CF1-3946F807BB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF698BC8-B0C7-40F2-9CF1-3946F807BB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF698BC8-B0C7-40F2-9CF1-3946F807BB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118949C6-2373-488F-85A6-1FF41198B240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118949C6-2373-488F-85A6-1FF41198B240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118949C6-2373-488F-85A6-1FF41198B240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118949C6-2373-488F-85A6-1FF41198B240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
