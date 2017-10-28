@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET3.5 Client Profile", "NE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.0 Client Profile", "NET4.0 Client Profile\NET4.0 Client Profile.csproj", "{EB62671D-596E-4FD5-8B07-32C9A7286F38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.0", "NET4.0\NET4.0.csproj", "{E9F3848E-256D-4F04-A788-FA2D1F3CD79B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{EB62671D-596E-4FD5-8B07-32C9A7286F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB62671D-596E-4FD5-8B07-32C9A7286F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB62671D-596E-4FD5-8B07-32C9A7286F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F3848E-256D-4F04-A788-FA2D1F3CD79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F3848E-256D-4F04-A788-FA2D1F3CD79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F3848E-256D-4F04-A788-FA2D1F3CD79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F3848E-256D-4F04-A788-FA2D1F3CD79B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
