@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.6.1", "NET4.6.1\NET4.6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.6.2", "NET4.6.2\NET4.6.2.csproj", "{52124DE9-C72B-4AC4-A395-2E1893B98241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.7", "NET4.7\NET4.7.csproj", "{9BDD58AC-AB12-4D1E-95CE-A922B4D57B1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,6 +98,10 @@ Global
 		{52124DE9-C72B-4AC4-A395-2E1893B98241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52124DE9-C72B-4AC4-A395-2E1893B98241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52124DE9-C72B-4AC4-A395-2E1893B98241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDD58AC-AB12-4D1E-95CE-A922B4D57B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDD58AC-AB12-4D1E-95CE-A922B4D57B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDD58AC-AB12-4D1E-95CE-A922B4D57B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDD58AC-AB12-4D1E-95CE-A922B4D57B1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

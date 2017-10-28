@@ -12,5 +12,6 @@
 "NET4.6.exe" -c
 "NET4.6.1.exe" -c
 "NET4.6.2.exe" -c
+"NET4.7.exe" -c
 
 pause
