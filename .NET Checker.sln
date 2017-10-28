@@ -10,7 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Check.NET.cmd = Check.NET.cmd
 		net.ico = net.ico
 		net.svg = net.svg
-		Program.cs = Program.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{D1FFD9A9-2B61-4835-A091-DBEB1C8F0F26}"
