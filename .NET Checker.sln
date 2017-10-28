@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET3.0", "NET3.0\NET3.0.csproj", "{1EF01297-DDF7-4BF2-A951-D1D4843C7D30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET3.5", "NET3.5\NET3.5.csproj", "{C1DCED05-076E-46BF-8AA3-FAA972CA5989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{1EF01297-DDF7-4BF2-A951-D1D4843C7D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EF01297-DDF7-4BF2-A951-D1D4843C7D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EF01297-DDF7-4BF2-A951-D1D4843C7D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DCED05-076E-46BF-8AA3-FAA972CA5989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DCED05-076E-46BF-8AA3-FAA972CA5989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DCED05-076E-46BF-8AA3-FAA972CA5989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DCED05-076E-46BF-8AA3-FAA972CA5989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
