@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore1.1", "NETCore1.1\NE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore2.0", "NETCore2.0\NETCore2.0.csproj", "{169E878B-C7BA-47B9-A4E8-8F070EE5C380}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetNETFrameworks", "GetNETFrameworks\GetNETFrameworks.csproj", "{B1807D9A-A332-4A9D-80C8-3BB1CB73C644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{169E878B-C7BA-47B9-A4E8-8F070EE5C380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{169E878B-C7BA-47B9-A4E8-8F070EE5C380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{169E878B-C7BA-47B9-A4E8-8F070EE5C380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1807D9A-A332-4A9D-80C8-3BB1CB73C644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1807D9A-A332-4A9D-80C8-3BB1CB73C644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1807D9A-A332-4A9D-80C8-3BB1CB73C644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1807D9A-A332-4A9D-80C8-3BB1CB73C644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
