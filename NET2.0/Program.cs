@@ -21,11 +21,10 @@ static class Program
                 case "--console":
                 case "-c":
                 case "/c":
-                    Console.Write(Application.ProductName + "   ");
-                    var consoleForegroundColor = Console.ForegroundColor;
+                    Console.Write(Application.ProductName.PadRight(25));
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.WriteLine("OK");
-                    Console.ForegroundColor = consoleForegroundColor;
+                    Console.ResetColor();
 
                     return;
             }

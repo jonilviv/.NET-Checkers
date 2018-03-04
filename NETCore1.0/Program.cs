@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Reflection;
-using System.Runtime.Versioning;
 
 namespace NETCore
 {
@@ -9,14 +8,10 @@ namespace NETCore
         public static void Main(string[] args)
         {
             string product = typeof(Program).GetTypeInfo().Assembly.GetCustomAttribute<AssemblyProductAttribute>().Product;
-            Console.Write(product + "   ");
-            var consoleForegroundColor = Console.ForegroundColor;
+            Console.Write(product.PadRight(25));
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("OK");
-            Console.ForegroundColor = consoleForegroundColor;
-
-            //string targetFramework = typeof(Program).GetTypeInfo().Assembly.GetCustomAttribute<TargetFrameworkAttribute>().FrameworkName;
-            //Console.WriteLine(targetFramework);
+            Console.ResetColor();
 
             if (args.Length > 0)
             {
