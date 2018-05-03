@@ -15,6 +15,7 @@ GetNETFrameworks.exe
 "NET4.6.2.exe" -c
 "NET4.7.exe" -c
 "NET4.7.1.exe" -c
+"NET4.7.2.exe" -c
 dotnet "netcoreapp1.0\NETCore1.0.dll" -c
 dotnet "netcoreapp1.1\NETCore1.1.dll" -c
 dotnet "netcoreapp2.0\NETCore2.0.dll" -c
