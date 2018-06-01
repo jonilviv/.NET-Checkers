@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetNETFrameworks", "GetNETF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.7.2", "NET4.7.2\NET4.7.2.csproj", "{1098B9E2-71CC-48D4-8677-64BD6E963879}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore2.1", "NETCore2.1\NETCore2.1.csproj", "{1754AF46-0F6F-43B2-ACFD-0D4358B29647}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{1098B9E2-71CC-48D4-8677-64BD6E963879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1098B9E2-71CC-48D4-8677-64BD6E963879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1098B9E2-71CC-48D4-8677-64BD6E963879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1754AF46-0F6F-43B2-ACFD-0D4358B29647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1754AF46-0F6F-43B2-ACFD-0D4358B29647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1754AF46-0F6F-43B2-ACFD-0D4358B29647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1754AF46-0F6F-43B2-ACFD-0D4358B29647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
