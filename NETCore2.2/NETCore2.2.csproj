@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>NETCore2.2</AssemblyName>
+    <RootNamespace>NETCore2.2</RootNamespace>
+    <PackageId>.NET Core 2.2</PackageId>
+    <Product>.NET Core 2.2</Product>
+    <ApplicationIcon>..\net.ico</ApplicationIcon>
+
+    <Copyright>GNU GPLv3</Copyright>
+    <PackageLicenseUrl>http://www.gnu.org/licenses/gpl.html</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>..\out\.NET Checkers\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\NETCore1.0\Program.cs" Link="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\net.ico" Link="net.ico" />
+  </ItemGroup>
+
+</Project>

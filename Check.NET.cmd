@@ -20,5 +20,6 @@ dotnet "netcoreapp1.0\NETCore1.0.dll" -c
 dotnet "netcoreapp1.1\NETCore1.1.dll" -c
 dotnet "netcoreapp2.0\NETCore2.0.dll" -c
 dotnet "netcoreapp2.1\NETCore2.1.dll" -c
+dotnet "netcoreapp2.2\NETCore2.2.dll" -c
 
 pause
