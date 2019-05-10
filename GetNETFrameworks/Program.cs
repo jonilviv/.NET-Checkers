@@ -136,7 +136,7 @@ namespace GetNETFrameworks
                     else
                     {
                         int releaseKey = (int)ndpKey.GetValue("Release");
-                        Console.WriteLine(".NET Framework Version: " + CheckFor45PlusVersion(releaseKey));
+                        Console.WriteLine($".NET Framework Version: ({releaseKey})" + CheckFor45PlusVersion(releaseKey));
                     }
 
                     ndpKey.Close();
@@ -166,6 +166,8 @@ namespace GetNETFrameworks
                 case 461310: return ".NET Framework 4.7.1 installed on all other Windows OS versions";
                 case 461808: return ".NET Framework 4.7.2 installed on On Windows 10 April 2018 Update";
                 case 461814: return ".NET Framework 4.7.2 installed on all other Windows OS versions";
+                case 528040: return ".NET Framework 4.8 installed on On Windows 10 May 2019 Update";
+                case 528049: return ".NET Framework 4.8 installed on all other Windows OS versions";
                 default: return "No 4.5 or later version detected";
             }
         }
