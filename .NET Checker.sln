@@ -61,6 +61,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore2.2", "NETCore2.2\NE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET4.8", "NET4.8\NET4.8.csproj", "{52B6D025-888E-4CFE-8DFD-91E1BA6BDD86}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore3.0", "NETCore3.0\NETCore3.0.csproj", "{6CD8613D-8CD0-40C2-9075-539D02206488}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore3.1", "NETCore3.1\NETCore3.1.csproj", "{8D4ECC24-81C0-4F04-8523-9338DE7C8FA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +159,14 @@ Global
 		{52B6D025-888E-4CFE-8DFD-91E1BA6BDD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B6D025-888E-4CFE-8DFD-91E1BA6BDD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B6D025-888E-4CFE-8DFD-91E1BA6BDD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD8613D-8CD0-40C2-9075-539D02206488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD8613D-8CD0-40C2-9075-539D02206488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD8613D-8CD0-40C2-9075-539D02206488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD8613D-8CD0-40C2-9075-539D02206488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4ECC24-81C0-4F04-8523-9338DE7C8FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4ECC24-81C0-4F04-8523-9338DE7C8FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4ECC24-81C0-4F04-8523-9338DE7C8FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4ECC24-81C0-4F04-8523-9338DE7C8FA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
